@@ -1,6 +1,7 @@
 {
   "name": "stackdev",
   "version": "0.1.0",
+  "homepage": "https://samnickgammer.github.io/devStackClient",
   "private": true,
   "dependencies": {
     "@apollo/client": "^3.2.5",
@@ -13,6 +14,7 @@
     "@testing-library/user-event": "^12.2.0",
     "apollo-link-context": "^1.0.20",
     "date-fns": "^2.16.1",
+    "gh-pages": "^4.0.0",
     "graphql": "^14.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -28,7 +30,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "rm -rf build && npm run build"
+    "predeploy": "rm -rf build && npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
