@@ -86,7 +86,7 @@ const QuesListPage = ({ tagFilterActive, searchFilterActive }) => {
             color="primary"
             size={isMobile ? 'small' : 'medium'}
             component={RouterLink}
-            to="/ask"
+            to="/devStackClient/ask"
             onClick={() => clearEdit()}
             style={{ minWidth: '9em' }}
           >

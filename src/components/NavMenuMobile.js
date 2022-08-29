@@ -54,7 +54,7 @@ const MobileNavMenu = () => {
           }
           dense
           component={RouterLink}
-          to="/"
+          to="/devStackClient"
           onClick={handleCloseMenu}
         >
           <PublicIcon className={classes.menuIcon} />
@@ -64,7 +64,7 @@ const MobileNavMenu = () => {
           selected={pathname.startsWith('/tag')}
           dense
           component={RouterLink}
-          to="/tags"
+          to="/devStackClient/tags"
           onClick={handleCloseMenu}
         >
           <LocalOfferIcon className={classes.menuIcon} />
@@ -74,7 +74,7 @@ const MobileNavMenu = () => {
           selected={pathname.startsWith('/user')}
           dense
           component={RouterLink}
-          to="/users"
+          to="/devStackClient/users"
           onClick={handleCloseMenu}
         >
           <PeopleIcon className={classes.menuIcon} />

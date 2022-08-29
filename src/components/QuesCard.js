@@ -44,7 +44,7 @@ const QuesCard = ({ question }) => {
           color="secondary"
           className={classes.title}
           component={RouterLink}
-          to={`/questions/${id}`}
+          to={`/devStackClient/questions/${id}`}
         >
           {title}
         </Typography>
@@ -61,7 +61,7 @@ const QuesCard = ({ question }) => {
                 color="primary"
                 size="small"
                 component={RouterLink}
-                to={`/tags/${t}`}
+                to={`/devStackClient/tags/${t}`}
                 className={classes.tag}
                 clickable
               />

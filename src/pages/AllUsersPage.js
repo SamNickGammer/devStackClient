@@ -60,10 +60,13 @@ const AllUsersPage = () => {
                   alt={u.username}
                   className={classes.avatar}
                   component={RouterLink}
-                  to={`/user/${u.username}`}
+                  to={`/devStackClient/user/${u.username}`}
                 />
                 <div>
-                  <Link component={RouterLink} to={`/user/${u.username}`}>
+                  <Link
+                    component={RouterLink}
+                    to={`/devStackClient/user/${u.username}`}
+                  >
                     <Typography variant="body2">{u.username}</Typography>
                   </Link>
                   <Typography variant="caption">

@@ -61,7 +61,7 @@ const NavBar = () => {
                   <IconButton
                     className={classes.logo}
                     component={RouterLink}
-                    to="/"
+                    to="/devStackClient"
                   >
                     <img src={SofLogo} width="25px" alt="sof-logo" />
                   </IconButton>
@@ -69,7 +69,7 @@ const NavBar = () => {
                   <Button
                     className={classes.logo}
                     component={RouterLink}
-                    to="/"
+                    to="/devStackClient"
                     size="large"
                   >
                     <img

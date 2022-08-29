@@ -159,7 +159,7 @@ const QuesAnsDetails = ({
                 color="primary"
                 size="small"
                 component={RouterLink}
-                to={`/tags/${t}`}
+                to={`/devStackClient/tags/${t}`}
                 className={classes.tag}
                 clickable
               />

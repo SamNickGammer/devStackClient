@@ -106,14 +106,18 @@ const AnswerForm = ({ quesId, tags }) => {
               color="primary"
               size="small"
               component={RouterLink}
-              to={`/tags/${t}`}
+              to={`/devStackClient/tags/${t}`}
               className={classes.footerTag}
               clickable
             />
           ))}
           or{' '}
           {user ? (
-            <Link component={RouterLink} to="/ask" onClick={() => clearEdit()}>
+            <Link
+              component={RouterLink}
+              to="/devStackClient/ask"
+              onClick={() => clearEdit()}
+            >
               ask your own question.
             </Link>
           ) : (

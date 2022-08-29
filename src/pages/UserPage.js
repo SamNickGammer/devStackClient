@@ -59,7 +59,7 @@ const UserPage = () => {
           alt={username}
           className={classes.avatar}
           component={RouterLink}
-          to={`/user/${username}`}
+          to={`/devStackClient/user/${username}`}
         />
         <Typography variant="h5" color="secondary" className={classes.cardText}>
           {reputation} <Typography variant="caption">REPUTATION</Typography>

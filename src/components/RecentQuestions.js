@@ -20,7 +20,7 @@ const RecentQuestions = ({ question }) => {
           color="secondary"
           className={classes.title}
           component={RouterLink}
-          to={`/questions/${question.id}`}
+          to={`/devStackClient/questions/${question.id}`}
         >
           {question.title}
         </Typography>

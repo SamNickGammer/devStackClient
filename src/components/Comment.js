@@ -34,7 +34,7 @@ const Comment = ({ comment, user, quesAnsId, editComment, deleteComment }) => {
             {comment.body} –{' '}
             <Link
               component={RouterLink}
-              to={`/user/${comment.author.username}`}
+              to={`/devStackClient/user/${comment.author.username}`}
             >
               {comment.author.username}
             </Link>

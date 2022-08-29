@@ -25,7 +25,7 @@ const DesktopNavMenu = () => {
               (!pathname.startsWith('/tag') && !pathname.startsWith('/user'))
             }
             component={RouterLink}
-            to="/"
+            to="/devStackClient"
           >
             <PublicIcon className={classes.menuIcon} />
             Stack DevFlow
@@ -33,7 +33,7 @@ const DesktopNavMenu = () => {
           <MenuItem
             selected={pathname.startsWith('/tag')}
             component={RouterLink}
-            to="/tags"
+            to="/devStackClient/tags"
           >
             <LocalOfferIcon className={classes.menuIcon} />
             Tags
@@ -41,7 +41,7 @@ const DesktopNavMenu = () => {
           <MenuItem
             selected={pathname.startsWith('/user')}
             component={RouterLink}
-            to="/users"
+            to="/devStackClient/users"
           >
             <PeopleIcon className={classes.menuIcon} />
             Users

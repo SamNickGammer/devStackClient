@@ -24,12 +24,12 @@ const Routes = () => {
         justifyContent="space-between"
       >
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/devStackClient">
             <NavMenuDesktop />
             <QuesListPage />
             <RightSidePanel />
           </Route>
-          <Route exact path="/ask">
+          <Route exact path="/devStackClient/ask">
             {user ? (
               <>
                 <NavMenuDesktop />
@@ -37,31 +37,31 @@ const Routes = () => {
                 <RightSidePanel />
               </>
             ) : (
-              <Redirect to="/" />
+              <Redirect to="/devStackClient" />
             )}
           </Route>
-          <Route exact path="/tags">
+          <Route exact path="/devStackClient/tags">
             <NavMenuDesktop />
             <AllTagsPage />
           </Route>
-          <Route exact path="/users">
+          <Route exact path="/devStackClient/users">
             <NavMenuDesktop />
             <AllUsersPage />
           </Route>
-          <Route exact path="/user/:username">
+          <Route exact path="/devStackClient/user/:username">
             <NavMenuDesktop />
             <UserPage />
           </Route>
-          <Route exact path="/questions/:quesId">
+          <Route exact path="/devStackClient/questions/:quesId">
             <NavMenuDesktop />
             <QuestionPage />
           </Route>
-          <Route exact path="/tags/:tagName">
+          <Route exact path="/devStackClient/tags/:tagName">
             <NavMenuDesktop />
             <QuesListPage tagFilterActive={true} />
             <RightSidePanel />
           </Route>
-          <Route exact path="/search/:query">
+          <Route exact path="/devStackClient/search/:query">
             <NavMenuDesktop />
             <QuesListPage searchFilterActive={true} />
             <RightSidePanel />

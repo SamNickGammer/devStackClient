@@ -61,7 +61,7 @@ const UserMenuDesktop = ({ user, logoutUser }) => {
           >
             <MenuItem
               component={RouterLink}
-              to={`/user/${user.username}`}
+              to={`/devStackClient/user/${user.username}`}
               onClick={handleCloseMenu}
             >
               <AccountCircleIcon className={classes.menuIcon} />

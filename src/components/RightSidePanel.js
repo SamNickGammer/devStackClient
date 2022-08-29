@@ -44,7 +44,7 @@ const RightSidePanel = () => {
                       color="primary"
                       size="small"
                       component={RouterLink}
-                      to={`/tags/${t.tagName}`}
+                      to={`/devStackClient/tags/${t.tagName}`}
                       className={classes.tag}
                       clickable
                     />

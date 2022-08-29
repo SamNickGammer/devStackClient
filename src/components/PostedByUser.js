@@ -22,7 +22,7 @@ const ByUser = ({
         alt={username}
         className={filledVariant ? classes.quesAnsAvatar : classes.homeAvatar}
         component={RouterLink}
-        to={`/user/${username}`}
+        to={`/devStackClient/user/${username}`}
       />
       <div>
         <Typography variant="caption" color="secondary">
@@ -36,7 +36,7 @@ const ByUser = ({
             {`updated ${formatDayTime(updatedAt)}`}
           </Typography>
         )}
-        <Link component={RouterLink} to={`/user/${username}`}>
+        <Link component={RouterLink} to={`/devStackClient/user/${username}`}>
           <Typography variant="body2">{username}</Typography>
         </Link>
       </div>
