@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/devStackClient/static/css/main.f3dbac13.chunk.css",
+    "main.js": "/devStackClient/static/js/main.8d0f7647.chunk.js",
+    "main.js.map": "/devStackClient/static/js/main.8d0f7647.chunk.js.map",
+    "runtime-main.js": "/devStackClient/static/js/runtime-main.6842da87.js",
+    "runtime-main.js.map": "/devStackClient/static/js/runtime-main.6842da87.js.map",
+    "static/css/2.40d797c7.chunk.css": "/devStackClient/static/css/2.40d797c7.chunk.css",
+    "static/js/2.5e0fe471.chunk.js": "/devStackClient/static/js/2.5e0fe471.chunk.js",
+    "static/js/2.5e0fe471.chunk.js.map": "/devStackClient/static/js/2.5e0fe471.chunk.js.map",
+    "index.html": "/devStackClient/index.html",
+    "static/css/2.40d797c7.chunk.css.map": "/devStackClient/static/css/2.40d797c7.chunk.css.map",
+    "static/css/main.f3dbac13.chunk.css.map": "/devStackClient/static/css/main.f3dbac13.chunk.css.map",
+    "static/js/2.5e0fe471.chunk.js.LICENSE.txt": "/devStackClient/static/js/2.5e0fe471.chunk.js.LICENSE.txt",
+    "static/media/404-error.bb3bc420.svg": "/devStackClient/static/media/404-error.bb3bc420.svg",
+    "static/media/accepted.e277c840.svg": "/devStackClient/static/media/accepted.e277c840.svg",
+    "static/media/downvote.7ebb6912.svg": "/devStackClient/static/media/downvote.7ebb6912.svg",
+    "static/media/index.css": "/devStackClient/static/media/montserrat-latin-900italic.efcaa0f6.woff",
+    "static/media/stack-overflow.48a91746.svg": "/devStackClient/static/media/stack-overflow.48a91746.svg",
+    "static/media/upvote.9f607766.svg": "/devStackClient/static/media/upvote.9f607766.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6842da87.js",
+    "static/css/2.40d797c7.chunk.css",
+    "static/js/2.5e0fe471.chunk.js",
+    "static/css/main.f3dbac13.chunk.css",
+    "static/js/main.8d0f7647.chunk.js"
+  ]
+}
