@@ -70,7 +70,7 @@ const AskQuestionPage = () => {
     addQuestion({
       variables: { title, body, tags },
       update: (_, { data }) => {
-        history.push(`/questions/${data.postQuestion.id}`);
+        history.push(`/devStackClient/questions/${data.postQuestion.id}`);
         reset();
         notify('Question posted!');
       },
@@ -83,7 +83,7 @@ const AskQuestionPage = () => {
     updateQuestion({
       variables: { quesId: editValues.quesId, title, body, tags },
       update: (_, { data }) => {
-        history.push(`/questions/${data.editQuestion.id}`);
+        history.push(`/devStackClient/questions/${data.editQuestion.id}`);
         clearEdit();
         notify('Question edited!');
       },

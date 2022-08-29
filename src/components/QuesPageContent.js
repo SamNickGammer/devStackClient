@@ -113,14 +113,14 @@ const QuesPageContent = ({ question }) => {
 
   const editQues = () => {
     setEditValues({ quesId, title, body, tags });
-    history.push('/ask');
+    history.push('/devStackClient/ask');
   };
 
   const deleteQues = () => {
     removeQuestion({
       variables: { quesId },
       update: () => {
-        history.push('/');
+        history.push('/devStackClient');
         notify('Question deleted!');
       },
     });

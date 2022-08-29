@@ -49,8 +49,9 @@ const MobileNavMenu = () => {
       >
         <MenuItem
           selected={
-            pathname === '/' ||
-            (!pathname.startsWith('/tag') && !pathname.startsWith('/user'))
+            pathname === '/devStackClient' ||
+            (!pathname.startsWith('/devStackClient/tag') &&
+              !pathname.startsWith('/devStackClient/user'))
           }
           dense
           component={RouterLink}
@@ -61,7 +62,7 @@ const MobileNavMenu = () => {
           Stack DevFlow
         </MenuItem>
         <MenuItem
-          selected={pathname.startsWith('/tag')}
+          selected={pathname.startsWith('/devStackClient/tag')}
           dense
           component={RouterLink}
           to="/devStackClient/tags"
@@ -71,7 +72,7 @@ const MobileNavMenu = () => {
           Tags
         </MenuItem>
         <MenuItem
-          selected={pathname.startsWith('/user')}
+          selected={pathname.startsWith('/devStackClient/user')}
           dense
           component={RouterLink}
           to="/devStackClient/users"

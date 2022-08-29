@@ -21,8 +21,9 @@ const DesktopNavMenu = () => {
         <div className={classes.list}>
           <MenuItem
             selected={
-              pathname === '/' ||
-              (!pathname.startsWith('/tag') && !pathname.startsWith('/user'))
+              pathname === '/devStackClient' ||
+              (!pathname.startsWith('/devStackClient/tag') &&
+                !pathname.startsWith('/devStackClient/user'))
             }
             component={RouterLink}
             to="/devStackClient"
@@ -31,7 +32,7 @@ const DesktopNavMenu = () => {
             Stack DevFlow
           </MenuItem>
           <MenuItem
-            selected={pathname.startsWith('/tag')}
+            selected={pathname.startsWith('/devStackClient/tag')}
             component={RouterLink}
             to="/devStackClient/tags"
           >
@@ -39,7 +40,7 @@ const DesktopNavMenu = () => {
             Tags
           </MenuItem>
           <MenuItem
-            selected={pathname.startsWith('/user')}
+            selected={pathname.startsWith('/devStackClient/user')}
             component={RouterLink}
             to="/devStackClient/users"
           >
